@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .left, .right {
+    font: italic 32px "Fira Sans", serif;
+    margin-top: 20px;
+  }
+  .middle{
+    color: #f1f1f1;
+   
+    font: italic 70px "Fira Sans", serif;
+  }
+
+
+#myVideo {
+    display: flex;
+    
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display:flexbox;
+    flex: auto;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    
+
+  }
+  .reviewss{
+    
+    flex-wrap: wrap;
+    display: flex;
+    color: white;
+    background-color: rgba(88, 88, 88, 0.726);
+
+    
+  }
+  ul{
+     
+      
+  }
+  li{
+      flex: auto;
+      margin: auto;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+h2{
+    
+    margin: 50px;
+    font-size: 40px; 
+    color: rgb(185, 118, 118);
+ }
+  .header-options{
+    border: 1px solid rgba(245, 245, 245, 0); 
+    
+    width: auto;
+    height:90px;
+    display: flex;
+    justify-content:space-between;
+    font-size: 32px;
+    font-family: monospace;
+    font-style: courier;
+    
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0px;
+  }
+  .icon{
+    position: fixed;
+    top: 15%;
+    left: 42%;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+   
+    padding: 20px;
+  
+}
+.our{
+    position: fixed;
+    top: 44%;
+    left: 43.5%;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    padding: 20px;
+    font-size: 32px;
+    font: italic 40px "Fira Sans", serif;
+}
+
+body{
+    background-color: wheat;
+    
+}
+h1{
+    margin-left: 30px;
+    top:200px;
+    position:fixed;
+    align-items: left;
+    border-radius: 30px;
+    color: white;
+}
+.biography{
+    top:240px;
+    width: 30%;
+    margin-left: 30px;
+    position:fixed;
+    align-items: left;
+    border-radius: 30px;
+    color: white;
+}
+.pc1{
+    top: 25%;
+    right:25%;
+    position:fixed;
+    align-items: center;
+    border-radius: 30px;
+
+
+}
+.pics {
+    
+    color: #ffffff;
+    background-color: #00030771;
+    display: flex;
+
+    
+    flex-wrap: wrap;
+    justify-content:center;
+    
+    
+    
+  }
+  .pc{
+      margin: 50px;
+      border-radius: 40px;
+      max-width: 40%;
+      height: fit-content;
+      
+  }
+  .galhead{
+      background-color: rgba(0, 0, 0, 0);
+    margin-left: 50px;
+    color: white;
+    margin-top: auto;
+    text-align: left;
+  }
+
+
+
+  
+  /* Style the button used to pause/play the video */
+  
